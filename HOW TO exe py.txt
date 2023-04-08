@@ -1,0 +1,11 @@
+terminal:
+
+	pip install pyinstaller
+
+	pyinstaller <plik z kodem> --onefile 
+np. pyinstaller main.py --onefile
+
+pojawia sie 2 nowe foldery, build i dist
+w dist bedzie plik main.exe (o ile wrzucilismy jako input main.py)
+
+// to w przypadku jakichs malych plikow, nie stosowac na produkcji, bo w 99% przypadkow komputery widza takie pliki jako wirusy
